@@ -3,7 +3,7 @@
   "private": true,
   "description": "Gatsby blog starter template",
   "version": "0.1.0",
-  "author": "Jbee[JaeYeopHan]<ljyhanll@gmail.com>",
+  "author": "Kyun2da<kyun2dot@gmail.com>",
   "bugs": {
     "url": "https://github.com/JaeYeopHan/gatsby-starter-bee/issues"
   },
@@ -18,7 +18,7 @@
     "gatsby-plugin-react-helmet": "^3.0.10",
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.0.30",
-    "gatsby-plugin-sitemap": "^2.0.10",
+    "gatsby-plugin-sitemap": "^2.12.0",
     "gatsby-plugin-typography": "^2.2.10",
     "gatsby-remark-autolink-headers": "^2.0.16",
     "gatsby-remark-copy-linked-files": "^2.0.11",
