@@ -1,12 +1,12 @@
 module.exports = {
   title: `Kyun2da.dev`,
-  description: `Kyun2da Blog`,
+  description: `Kyun2da의 개발 블로그`,
   author: `[Kyun2da]`,
   introduction: `Kyun2da Dev Blog`,
   siteUrl: `https://kyun2da.dev`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `https://github.com/kyun2da`, // Your GitHub account
+    github: `kyun2da`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
