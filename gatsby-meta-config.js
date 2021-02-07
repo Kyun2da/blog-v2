@@ -12,7 +12,7 @@ module.exports = {
     linkedin: ``, // Your LinkedIn account
   },
   icon: `content/assets/felog.png`, // Add your favicon
-  keywords: [`blog`],
+  keywords: [`Kyun2da Blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
     utterances: 'Kyun2da/blog-v2', // Your repository for archive comment
@@ -24,7 +24,7 @@ module.exports = {
     buyMeACoffeeId: 'kyun2da',
   },
   share: {
-    facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
+    facebookAppId: '3938209616201818', // Add facebookAppId for using facebook share feature v3.2
   },
   ga: 'UA-154921281-1', // Add your google analytics tranking ID
 }
