@@ -50,6 +50,11 @@ export function Head({ description, lang, meta, keywords, title }) {
                 name: `twitter:description`,
                 content: metaDescription,
               },
+              {
+                name: 'google-site-verification',
+                content:
+                  'google-site-verification=tLu1WHyqzYh80j30skIvsLPXcFGizgtz17bLroY-EXI',
+              },
             ]
               .concat(
                 keywords.length > 0
