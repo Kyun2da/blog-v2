@@ -5,3 +5,5 @@
 [블로그 구경하기](https://kyun2da.dev)
 
 Gatsby Starter Package [gatsby-starter-bee](https://www.gatsbyjs.com/starters/JaeYeopHan/gatsby-starter-bee)를 활용한 블로그 입니다.
+
+## npm run post 로 포스팅하기
