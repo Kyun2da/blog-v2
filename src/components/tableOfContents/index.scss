@@ -5,6 +5,7 @@ nav.container {
   color: black;
   width: calc((100vw - 720px) / 2 - 50px);
   display: none;
+
   @media screen and (min-width: 1200px) {
     position: sticky;
     top: 70px;
@@ -37,7 +38,8 @@ nav.container {
       background: $theme-gradient;
       color: white;
       font-weight: 600;
-      border-radius: 4px;
+      padding: 4px;
+      border-radius: 12px;
     }
   }
 }
