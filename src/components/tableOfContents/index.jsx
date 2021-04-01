@@ -1,7 +1,5 @@
 import React, { useMemo } from 'react'
 import './index.scss'
-//import s from './css/TableOfContents.module.scss'
-//import cn from 'classnames'
 
 export const TableOfContents = ({ items, currentHeaderUrl }) => {
   const replaceItems = useMemo(() => {
