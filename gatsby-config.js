@@ -1,4 +1,5 @@
 const metaConfig = require('./gatsby-meta-config')
+require('dotenv').config()
 
 module.exports = {
   siteMetadata: metaConfig,
@@ -109,6 +110,14 @@ module.exports = {
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries: require('./src/utils/algolia-queries'),
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-feed`,
@@ -117,5 +126,6 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-lodash`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-styled-components`,
   ],
 }
