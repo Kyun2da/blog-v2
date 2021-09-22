@@ -73,6 +73,12 @@ module.exports = {
               elements: [`h2`, 'h3', `h4`], // 링크를 추가할 Header 종류 선택
             },
           },
+          {
+            resolve: 'gatsby-remark-stackblitz',
+            options: {
+              height: 600,
+            },
+          },
         ],
       },
     },
